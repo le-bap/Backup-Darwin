@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/decision__struct.hpp"
 #include "custom_interfaces/msg/detail/decision__builder.hpp"
 #include "custom_interfaces/msg/detail/decision__traits.hpp"
+#include "custom_interfaces/msg/detail/decision__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__DECISION_HPP_

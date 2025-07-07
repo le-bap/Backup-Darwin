@@ -3,7 +3,7 @@
 
 #include "motors_pkg/motors_communication.hpp"
 
-// #define PROTOCOL_VERSION 2   
+// #define PROTOCOL_VERSION 1   
 
 // #if PROTOCOL_VERSION == 2
 //     #include "motors_pkg/protocol2.h"
@@ -13,7 +13,7 @@
 
 // Default setting
 #define BAUDRATE 1000000  // Default Baudrate of DYNAMIXEL X series
-#define DEVICE_NAME "/dev/motors"  // [Linux]: "/dev/ttyUSB", [Windows]: "COM*"
+#define DEVICE_NAME "/dev/ttyUSB0"  // [Linux]: "/dev/ttyUSB", [Windows]: "COM*"
 
 int dxl_comm_result = COMM_TX_FAIL;
 
@@ -24,7 +24,7 @@ MotorsCommunication::MotorsCommunication()
 {
     std::iota (std::begin(allIds), std::end(allIds), 1);
 
-    robotNumber = this->declare_parameter("robot_number", 2);
+    robotNumber = this->declare_parameter("robot_number", 3);
 
     mtrs_att = new motorsAttributes(robotNumber);   
     RCLCPP_INFO(this->get_logger(), "robotNumber: %d", robotNumber); 
@@ -81,7 +81,16 @@ void MotorsCommunication::initialMotorsSetup(int id)
         }
     }
 
-
+//  if(mode == 0)
+//   {
+//     pos.type.push_back(JointStateMsg::POSITION);
+//   }
+//   else
+//   {
+//     pos.type.push_back(JointStateMsg::VELOCITY);
+//     lastVelocitys[id-1] = posLineEdit->text().toInt();
+//     allPosLabel[id-1]->setText(QString("%1").arg(lastVelocitys[id-1]));
+//   }
     // Enable Torque of DYNAMIXEL
     setJointTorque(id, 1);
 }
@@ -89,6 +98,21 @@ void MotorsCommunication::initialMotorsSetup(int id)
 void MotorsCommunication::joint_state_callback(const JointStateMsg::SharedPtr joint_state_info)
 {
     setJoints(*joint_state_info);
+
+    // for(size_t i = 0; i < jointInfo.id.size(); ++i){
+
+    //     int id = jointInfo.id[i];
+    //     int value = jointInfo.info[i];
+    //     uint8_t type = jointInfo.type[i];
+
+    //     if(type == JointStateMsg::TORQUE){
+
+            
+
+    //     }
+
+    // }
+
 }
 
 void MotorsCommunication::timer_callback()
@@ -103,17 +127,17 @@ void MotorsCommunication::timer_callback()
 
     //RCLCPP_INFO(this->get_logger(), "-------------------");
 
-        for(int i=1; i<21; i++)
-    {
-    //    RCLCPP_INFO(this->get_logger(), "Position %d | %d",i, joints.position[i]);
-    }
+    //     for(int i=1; i<21; i++)
+    // {
+    //     RCLCPP_INFO(this->get_logger(), "Position %d | %d",i, joints.position[i]);
+    // }
 
-    //RCLCPP_INFO(this->get_logger(), "-------------------");
+    // //RCLCPP_INFO(this->get_logger(), "-------------------");
 
-        for(int i=1; i<21; i++)
-    {
-    //   RCLCPP_INFO(this->get_logger(), "Vel %d | %d",i, joints.velocity[i]);
-    }
+    //     for(int i=1; i<21; i++)
+    // {
+    // //   RCLCPP_INFO(this->get_logger(), "Vel %d | %d",i, joints.velocity[i]);
+    // }
 
     auto allJointsPos = JointStateMsg();
 

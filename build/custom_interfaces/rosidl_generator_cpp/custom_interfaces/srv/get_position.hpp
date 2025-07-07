@@ -7,5 +7,6 @@
 #include "custom_interfaces/srv/detail/get_position__struct.hpp"
 #include "custom_interfaces/srv/detail/get_position__builder.hpp"
 #include "custom_interfaces/srv/detail/get_position__traits.hpp"
+#include "custom_interfaces/srv/detail/get_position__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__SRV__GET_POSITION_HPP_

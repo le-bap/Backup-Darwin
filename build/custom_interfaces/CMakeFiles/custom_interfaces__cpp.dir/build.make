@@ -70,58 +70,73 @@ CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/se
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/vision.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/vision_robot.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/humanoid_league_msgs.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/localization.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/set_position_original.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/decision.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/walk.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/neck_position.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/joint_state.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/robot_state.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/get_position.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/reset.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__type_support.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/control.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__type_support.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -201,6 +216,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__struct.hpp: rosi
 rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/msg/vision.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/vision.hpp
 
@@ -212,6 +230,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/vision__struct.hpp: rosidl_gen
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/vision__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vision__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/vision__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vision__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/vision_robot.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/vision_robot.hpp
@@ -225,6 +246,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__struct.hpp: rosi
 rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/msg/humanoid_league_msgs.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/humanoid_league_msgs.hpp
 
@@ -236,6 +260,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__struct.h
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/localization.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/localization.hpp
@@ -249,6 +276,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/localization__struct.hpp: rosi
 rosidl_generator_cpp/custom_interfaces/msg/detail/localization__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/localization__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/localization__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/localization__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/msg/set_position_original.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/set_position_original.hpp
 
@@ -260,6 +290,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__struct.
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/decision.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/decision.hpp
@@ -273,6 +306,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/decision__struct.hpp: rosidl_g
 rosidl_generator_cpp/custom_interfaces/msg/detail/decision__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/decision__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/decision__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/decision__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/msg/walk.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/walk.hpp
 
@@ -284,6 +320,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/walk__struct.hpp: rosidl_gener
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/walk__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/walk__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/walk__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/walk__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/neck_position.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/neck_position.hpp
@@ -297,6 +336,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__struct.hpp: ros
 rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/msg/joint_state.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/joint_state.hpp
 
@@ -308,6 +350,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__struct.hpp: rosid
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/robot_state.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/robot_state.hpp
@@ -321,6 +366,9 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__struct.hpp: rosid
 rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/srv/get_position.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/get_position.hpp
 
@@ -332,6 +380,9 @@ rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__struct.hpp: rosi
 
 rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__type_support.hpp
 
 rosidl_generator_cpp/custom_interfaces/srv/reset.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/reset.hpp
@@ -345,6 +396,9 @@ rosidl_generator_cpp/custom_interfaces/srv/detail/reset__struct.hpp: rosidl_gene
 rosidl_generator_cpp/custom_interfaces/srv/detail/reset__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/reset__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/srv/detail/reset__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/reset__type_support.hpp
+
 rosidl_generator_cpp/custom_interfaces/action/control.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/control.hpp
 
@@ -357,45 +411,60 @@ rosidl_generator_cpp/custom_interfaces/action/detail/control__struct.hpp: rosidl
 rosidl_generator_cpp/custom_interfaces/action/detail/control__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/control__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/action/detail/control__type_support.hpp: rosidl_generator_cpp/custom_interfaces/msg/set_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/control__type_support.hpp
+
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/control.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/control__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/decision.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/decision__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/localization__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/neck_position__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/set_position_original__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vision_robot__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/walk__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/humanoid_league_msgs.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/joint_state.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/localization.hpp
@@ -409,9 +478,11 @@ custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/walk.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/get_position__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/reset__type_support.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/get_position.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/reset.hpp
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp.dir/build.make

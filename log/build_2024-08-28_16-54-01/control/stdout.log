@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target motion[0m
-[  7%] Built target robot_joy_control
-[ 14%] Built target gait_publisher
-[ 22%] Built target neck_control
-[ 29%] Built target control
-[ 37%] Built target decision
-[ 40%] [32mBuilding CXX object CMakeFiles/motion.dir/src/motion/MotionManager.cpp.o[0m
-[ 44%] [32m[1mLinking CXX shared library libmotion.so[0m
-[100%] Built target motion

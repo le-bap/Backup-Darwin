@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/vision_robot__struct.hpp"
 #include "custom_interfaces/msg/detail/vision_robot__builder.hpp"
 #include "custom_interfaces/msg/detail/vision_robot__traits.hpp"
+#include "custom_interfaces/msg/detail/vision_robot__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__VISION_ROBOT_HPP_

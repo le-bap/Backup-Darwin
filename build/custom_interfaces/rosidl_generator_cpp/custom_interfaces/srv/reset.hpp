@@ -7,5 +7,6 @@
 #include "custom_interfaces/srv/detail/reset__struct.hpp"
 #include "custom_interfaces/srv/detail/reset__builder.hpp"
 #include "custom_interfaces/srv/detail/reset__traits.hpp"
+#include "custom_interfaces/srv/detail/reset__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__SRV__RESET_HPP_

@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/walk__struct.hpp"
 #include "custom_interfaces/msg/detail/walk__builder.hpp"
 #include "custom_interfaces/msg/detail/walk__traits.hpp"
+#include "custom_interfaces/msg/detail/walk__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__WALK_HPP_

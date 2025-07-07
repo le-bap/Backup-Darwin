@@ -3,19 +3,25 @@
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__builder.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__struct.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp \
+  /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__builder.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__struct.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__traits.hpp \
+  /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/joint_state__type_support.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/humanoid_league_msgs.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/joint_state.hpp \
+  /home/robo/RoboFEI-HT_2023_SOFTWARE/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/robo/RoboFEI-HT_2023_SOFTWARE/src/gui/src/json.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
@@ -59,50 +65,64 @@
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
@@ -326,15 +346,19 @@
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__type_support.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/tracetools/tracetools/config.h \
   /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
   /opt/ros/humble/include/tracetools/tracetools/utils.hpp \

@@ -1,6 +1,0 @@
-Invoking command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/RoboFEI-HT_2023_SOFTWARE/src/um7/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/RoboFEI-HT_2023_SOFTWARE/install/serial
-Invoked command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/RoboFEI-HT_2023_SOFTWARE/src/um7/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/RoboFEI-HT_2023_SOFTWARE/install/serial
-Invoking command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial -- -j8 -l8
-Invoked command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial -- -j8 -l8
-Invoking command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial
-Invoked command in '/home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/RoboFEI-HT_2023_SOFTWARE/build/serial

@@ -7,5 +7,6 @@
 #include "custom_interfaces/action/detail/control__struct.hpp"
 #include "custom_interfaces/action/detail/control__builder.hpp"
 #include "custom_interfaces/action/detail/control__traits.hpp"
+#include "custom_interfaces/action/detail/control__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__ACTION__CONTROL_HPP_

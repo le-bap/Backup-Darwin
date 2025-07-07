@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/set_position__struct.hpp"
 #include "custom_interfaces/msg/detail/set_position__builder.hpp"
 #include "custom_interfaces/msg/detail/set_position__traits.hpp"
+#include "custom_interfaces/msg/detail/set_position__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__SET_POSITION_HPP_

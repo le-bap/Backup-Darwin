@@ -1,6 +1,0 @@
-[  7%] Built target robot_joy_control
-[ 14%] Built target neck_control
-[ 18%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
-[ 25%] Built target gait_publisher
-[ 33%] Built target decision
-[ 96%] Built target motion

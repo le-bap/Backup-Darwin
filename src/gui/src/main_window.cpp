@@ -314,7 +314,7 @@ void MainWindow::displayStepInfo() //mudar para enviar pros motores as prosiçõ
 
 void MainWindow::on_nextStep_button_clicked()
 {
-  if(atualStep < atualMovesList.size())
+  if(atualStep < (int)atualMovesList.size())
   {
     atualStep++;
     displayStepInfo();
@@ -334,7 +334,7 @@ void MainWindow::sendJointVel(std::vector<int> jointsVel)
 {
   auto jointVel = JointStateMsg();
 
-  if(count(jointsVel.begin(), jointsVel.end(), jointsVel[0]) == jointsVel.size())
+  if (std::count(jointsVel.begin(), jointsVel.end(), jointsVel[0]) == static_cast<int>(jointsVel.size()))
   {
     jointVel.id.push_back(254);
     jointVel.info.push_back(jointsVel[0]);
@@ -366,13 +366,71 @@ void MainWindow::sendJointPos(std::vector<int> jointsPos)
   joint_state_publisher_ ->publish(jointPos);
 }
 
+// wip: adicionar a parte de salvar do gui para o json.
 void MainWindow::on_saveStep_button_clicked()
 {
-  if(atualStep == 0) return;
-  
-  atualMovesList[atualStep-1][0] = lastPositions;
-  atualMovesList[atualStep-1][1] = lastVelocitys;
+  if (atualStep == 0) return;
+
+  // 1) Atualiza seu vetor interno
+  lastPositions       = getAllPositions();
+  atualMovesList[atualStep - 1][0] = lastPositions;
+  atualMovesList[atualStep - 1][1] = lastVelocitys;
+
+  // 2) Obtém o JSON do movimento
+  std::string moveName = ui_->movesList->currentText().toStdString();
+  if (!motions.contains(moveName)) {
+    RCLCPP_WARN(this->get_logger(),
+                "Movimento %s não encontrado no JSON",
+                moveName.c_str());
+    return;
+  }
+  json &moveJson = motions.getMoveJson(moveName);
+
+  // 3) Mapeia o atualStep (GUI) para o sufixo real no JSON
+  int totalSuffix = moveJson["number of movements"];
+  int posCount    = 0;
+  int targetI     = -1;
+
+  // varre todos os sufixos de 1 até totalSuffix
+  for (int i = 1; i <= totalSuffix; ++i) {
+    std::string addrKey = "address" + std::to_string(i);
+    if (moveJson.contains(addrKey) && moveJson[addrKey] == 116) {
+      // é um bloco de posição
+      ++posCount;
+      if (posCount == atualStep) {
+        targetI = i;
+        break;
+      }
+    }
+  }
+
+  if (targetI < 0) {
+    RCLCPP_WARN(this->get_logger(),
+                "Não encontrei o %dº bloco de posição em %s",
+                atualStep, moveName.c_str());
+    return;
+  }
+
+  // 4) Sobrescreve **só** position/ sleep para esse sufixo
+  std::string suf = std::to_string(targetI);
+  // address já é 116, não precisa regravar
+  moveJson["position" + suf] = lastPositions;
+  moveJson["sleep"    + suf] = 1.0;
+
+  // 5) Grava e pós-processa
+  std::string jsonFilePath =
+    folder_path +
+    "/src/control/Data/motion" +
+    std::to_string(robot_number_) +
+    ".json";
+  motions.saveJson(jsonFilePath);
+  postProcessFile(jsonFilePath);
+
+  RCLCPP_INFO(this->get_logger(),
+              "✅ Step %d (sufixo %d) salvo com sucesso em %s",
+              atualStep, targetI, moveName.c_str());
 }
+
 
 void MainWindow::checkUnsaved()
 {
@@ -459,4 +517,3 @@ void MainWindow::on_newStep_button_clicked()
   atualStep += 1;
   displayStepInfo();
 }
-

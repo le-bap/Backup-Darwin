@@ -1,8 +1,0 @@
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/gui/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_nextStep_button_clicked()[m[K’:
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/gui/src/main_window.cpp:317:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::vector<int, std::allocator<int> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
-  317 |   if([01;35m[KatualStep < atualMovesList.size()[m[K)
-      |      [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/gui/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::sendJointVel(std::vector<int, std::allocator<int> >)[m[K’:
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/gui/src/main_window.cpp:337:62:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__iterator_traits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, void>::difference_type[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kstd::vector<int, std::allocator<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
-  337 |   if([01;35m[Kcount(jointsVel.begin(), jointsVel.end(), jointsVel[0]) == jointsVel.size()[m[K)
-      |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K

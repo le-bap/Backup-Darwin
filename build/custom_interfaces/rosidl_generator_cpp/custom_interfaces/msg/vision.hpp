@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/vision__struct.hpp"
 #include "custom_interfaces/msg/detail/vision__builder.hpp"
 #include "custom_interfaces/msg/detail/vision__traits.hpp"
+#include "custom_interfaces/msg/detail/vision__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__VISION_HPP_

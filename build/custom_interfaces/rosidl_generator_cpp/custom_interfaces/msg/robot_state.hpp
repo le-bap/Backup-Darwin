@@ -7,5 +7,6 @@
 #include "custom_interfaces/msg/detail/robot_state__struct.hpp"
 #include "custom_interfaces/msg/detail/robot_state__builder.hpp"
 #include "custom_interfaces/msg/detail/robot_state__traits.hpp"
+#include "custom_interfaces/msg/detail/robot_state__type_support.hpp"
 
 #endif  // CUSTOM_INTERFACES__MSG__ROBOT_STATE_HPP_

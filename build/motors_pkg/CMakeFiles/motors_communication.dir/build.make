@@ -98,8 +98,8 @@ motors_communication: /home/robo/RoboFEI-HT_2023_SOFTWARE/install/custom_interfa
 motors_communication: /home/robo/RoboFEI-HT_2023_SOFTWARE/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
 motors_communication: /home/robo/RoboFEI-HT_2023_SOFTWARE/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
 motors_communication: /home/robo/RoboFEI-HT_2023_SOFTWARE/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
-motors_communication: /opt/ros/humble/lib/librclcpp.so
 motors_communication: /opt/ros/humble/lib/libdynamixel_sdk.so
+motors_communication: /opt/ros/humble/lib/librclcpp.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 motors_communication: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 motors_communication: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so

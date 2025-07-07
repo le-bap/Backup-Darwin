@@ -1,9 +1,0 @@
-In file included from [01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/decision_pkg_cpp/src/robot_behavior.cpp:4[m[K:
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/decision_pkg_cpp/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::feedback_callback(rclcpp_action::ClientGoalHandle<custom_interfaces::action::Control>::SharedPtr, std::shared_ptr<const custom_interfaces::action::Control_Feedback_<std::allocator<void> > >)[m[K’:
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/decision_pkg_cpp/src/decision_node.cpp:253:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  253 |   [01;35m[Kconst std::shared_ptr<const ControlActionMsg::Feedback> feedback[m[K)
-      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/decision_pkg_cpp/src/robot_behavior.cpp:[m[K In member function ‘[01m[Kbool RobotBehavior::robot_align_with_the_ball()[m[K’:
-[01m[K/home/robo/RoboFEI-HT_2023_SOFTWARE/src/decision_pkg_cpp/src/robot_behavior.cpp:272:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-  272 | [01;35m[K}[m[K
-      | [01;35m[K^[m[K
